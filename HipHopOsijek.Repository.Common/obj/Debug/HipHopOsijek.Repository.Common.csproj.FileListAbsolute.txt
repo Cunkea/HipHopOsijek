@@ -1,0 +1,9 @@
+E:\Web\HipHopOsijekWebAPI\HipHopOsijek.Repository.Common\obj\Debug\HipHopOsijek.Repository.Common.csprojResolveAssemblyReference.cache
+E:\Web\HipHopOsijekWebAPI\HipHopOsijek.Repository.Common\bin\Debug\HipHopOsijek.Repository.Common.dll
+E:\Web\HipHopOsijekWebAPI\HipHopOsijek.Repository.Common\bin\Debug\HipHopOsijek.Repository.Common.pdb
+E:\Web\HipHopOsijekWebAPI\HipHopOsijek.Repository.Common\bin\Debug\HipHopOsijek.Common.dll
+E:\Web\HipHopOsijekWebAPI\HipHopOsijek.Repository.Common\bin\Debug\HipHopOsijek.Model.Common.dll
+E:\Web\HipHopOsijekWebAPI\HipHopOsijek.Repository.Common\bin\Debug\HipHopOsijek.Common.pdb
+E:\Web\HipHopOsijekWebAPI\HipHopOsijek.Repository.Common\bin\Debug\HipHopOsijek.Model.Common.pdb
+E:\Web\HipHopOsijekWebAPI\HipHopOsijek.Repository.Common\obj\Debug\HipHopOsijek.Repository.Common.dll
+E:\Web\HipHopOsijekWebAPI\HipHopOsijek.Repository.Common\obj\Debug\HipHopOsijek.Repository.Common.pdb

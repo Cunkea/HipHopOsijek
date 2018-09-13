@@ -1,0 +1,9 @@
+E:\Web\HipHopOsijekWebAPI\HipHopOsijek.Service.Common\obj\Debug\HipHopOsijek.Service.Common.csprojResolveAssemblyReference.cache
+E:\Web\HipHopOsijekWebAPI\HipHopOsijek.Service.Common\bin\Debug\HipHopOsijek.Service.Common.dll
+E:\Web\HipHopOsijekWebAPI\HipHopOsijek.Service.Common\bin\Debug\HipHopOsijek.Service.Common.pdb
+E:\Web\HipHopOsijekWebAPI\HipHopOsijek.Service.Common\bin\Debug\HipHopOsijek.Common.dll
+E:\Web\HipHopOsijekWebAPI\HipHopOsijek.Service.Common\bin\Debug\HipHopOsijek.Model.Common.dll
+E:\Web\HipHopOsijekWebAPI\HipHopOsijek.Service.Common\bin\Debug\HipHopOsijek.Common.pdb
+E:\Web\HipHopOsijekWebAPI\HipHopOsijek.Service.Common\bin\Debug\HipHopOsijek.Model.Common.pdb
+E:\Web\HipHopOsijekWebAPI\HipHopOsijek.Service.Common\obj\Debug\HipHopOsijek.Service.Common.dll
+E:\Web\HipHopOsijekWebAPI\HipHopOsijek.Service.Common\obj\Debug\HipHopOsijek.Service.Common.pdb
