@@ -3,3 +3,7 @@ E:\Web\HipHopOsijekWebAPI\HipHopOsijek.Repository\bin\Debug\HipHopOsijek.Reposit
 E:\Web\HipHopOsijekWebAPI\HipHopOsijek.Repository\obj\Debug\HipHopOsijek.Repository.dll
 E:\Web\HipHopOsijekWebAPI\HipHopOsijek.Repository\obj\Debug\HipHopOsijek.Repository.pdb
 E:\Web\HipHopOsijekWebAPI\HipHopOsijek.Repository\obj\Debug\HipHopOsijek.Repository.csprojResolveAssemblyReference.cache
+C:\Users\Apolon\Documents\HipHopOsijek\HipHopOsijek.Repository\bin\Debug\HipHopOsijek.Repository.dll
+C:\Users\Apolon\Documents\HipHopOsijek\HipHopOsijek.Repository\bin\Debug\HipHopOsijek.Repository.pdb
+C:\Users\Apolon\Documents\HipHopOsijek\HipHopOsijek.Repository\obj\Debug\HipHopOsijek.Repository.dll
+C:\Users\Apolon\Documents\HipHopOsijek\HipHopOsijek.Repository\obj\Debug\HipHopOsijek.Repository.pdb
