@@ -1,0 +1,20 @@
+<div *ngIf="staticReg" id="register">
+	<div id="content">
+		<form id="form">
+			<label><b>Name</b></label>
+    		<input type="text" placeholder="Name" name="name" required style="margin-left: 31px;">
+    		<br>
+    		<label><b>Username</b></label>
+    		<input type="text" placeholder="Username" name="username" required style="margin-left: 1px;">
+    		<br>
+    		<label><b>Email</b></label>
+    		<input type="email" placeholder="Email" name="email" required style="margin-left: 31px;">
+    		<br>
+    		<label><b>Password</b></label>
+    		<input type="text" placeholder="Password" name="password" required>
+    		<br>
+    		<button id="submit" type="submit">Sign Up</button>
+			<button (click)="showRegister()" id="close">Close</button>
+		</form>
+	</div>
+</div>
