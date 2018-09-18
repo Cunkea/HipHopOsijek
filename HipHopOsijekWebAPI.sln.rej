@@ -1,0 +1,13 @@
+diff a/HipHopOsijekWebAPI.sln b/HipHopOsijekWebAPI.sln	(rejected hunks)
+@@ -3,11 +3,8 @@
+ # Visual Studio 14
+ VisualStudioVersion = 14.0.25420.1
+ MinimumVisualStudioVersion = 10.0.40219.1
+-<<<<<<< HEAD
+ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HipHopOsijek.WebAPI", "HipHopOsijek.WebAPI\HipHopOsijek.WebAPI.csproj", "{BA75C8A7-F7CF-4E59-A91B-3B9B74D957DA}"
+ EndProject
+-=======
+->>>>>>> da79125be20029fe1834a86d1a88c9fa3fdede23
+ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HipHopOsijek.Common", "HipHopOsijek.Common\HipHopOsijek.Common.csproj", "{054B1AE3-27B1-47D2-A2E7-64D2CF979CCB}"
+ EndProject
+ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HipHopOsijek.DAL", "HipHopOsijek.DAL\HipHopOsijek.DAL.csproj", "{410989FF-EE08-452B-B5FA-CECAFA5FB7A6}"
