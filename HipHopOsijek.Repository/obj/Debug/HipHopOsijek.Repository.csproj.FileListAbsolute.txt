@@ -8,3 +8,8 @@ C:\Users\susen\Documents\HipHopOsijek\HipHopOsijek.Repository\bin\Debug\HipHopOs
 C:\Users\susen\Documents\HipHopOsijek\HipHopOsijek.Repository\obj\Debug\HipHopOsijek.Repository.csprojResolveAssemblyReference.cache
 C:\Users\susen\Documents\HipHopOsijek\HipHopOsijek.Repository\obj\Debug\HipHopOsijek.Repository.dll
 C:\Users\susen\Documents\HipHopOsijek\HipHopOsijek.Repository\obj\Debug\HipHopOsijek.Repository.pdb
+C:\Users\Apolon\Documents\HipHopOsijek\HipHopOsijek.Repository\bin\Debug\HipHopOsijek.Repository.dll
+C:\Users\Apolon\Documents\HipHopOsijek\HipHopOsijek.Repository\bin\Debug\HipHopOsijek.Repository.pdb
+C:\Users\Apolon\Documents\HipHopOsijek\HipHopOsijek.Repository\obj\Debug\HipHopOsijek.Repository.csprojResolveAssemblyReference.cache
+C:\Users\Apolon\Documents\HipHopOsijek\HipHopOsijek.Repository\obj\Debug\HipHopOsijek.Repository.dll
+C:\Users\Apolon\Documents\HipHopOsijek\HipHopOsijek.Repository\obj\Debug\HipHopOsijek.Repository.pdb

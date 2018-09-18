@@ -8,3 +8,8 @@ C:\Users\susen\Documents\HipHopOsijek\HipHopOsijek.Common\bin\Debug\HipHopOsijek
 C:\Users\susen\Documents\HipHopOsijek\HipHopOsijek.Common\obj\Debug\HipHopOsijek.Common.csprojResolveAssemblyReference.cache
 C:\Users\susen\Documents\HipHopOsijek\HipHopOsijek.Common\obj\Debug\HipHopOsijek.Common.dll
 C:\Users\susen\Documents\HipHopOsijek\HipHopOsijek.Common\obj\Debug\HipHopOsijek.Common.pdb
+C:\Users\Apolon\Documents\HipHopOsijek\HipHopOsijek.Common\bin\Debug\HipHopOsijek.Common.dll
+C:\Users\Apolon\Documents\HipHopOsijek\HipHopOsijek.Common\bin\Debug\HipHopOsijek.Common.pdb
+C:\Users\Apolon\Documents\HipHopOsijek\HipHopOsijek.Common\obj\Debug\HipHopOsijek.Common.csprojResolveAssemblyReference.cache
+C:\Users\Apolon\Documents\HipHopOsijek\HipHopOsijek.Common\obj\Debug\HipHopOsijek.Common.dll
+C:\Users\Apolon\Documents\HipHopOsijek\HipHopOsijek.Common\obj\Debug\HipHopOsijek.Common.pdb

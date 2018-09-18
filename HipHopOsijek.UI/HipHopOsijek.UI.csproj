@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.TypeScript.MSBuild.3.0.3\build\Microsoft.TypeScript.MSBuild.props" Condition="Exists('..\packages\Microsoft.TypeScript.MSBuild.3.0.3\build\Microsoft.TypeScript.MSBuild.props')" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
   <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
   <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
@@ -10,11 +11,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-<<<<<<< HEAD
     <ProjectGuid>{B469C413-3EA6-4386-94ED-A69948C6B271}</ProjectGuid>
-=======
-    <ProjectGuid>{0EC50D68-598C-4DF1-B172-E0ED6F164DF2}</ProjectGuid>
->>>>>>> da79125be20029fe1834a86d1a88c9fa3fdede23
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -106,8 +103,56 @@
     </Content>
     <Content Include="bs-config.json" />
     <Content Include="package.json" />
+    <Content Include="src\app\app.component.css" />
+    <Content Include="src\app\app.component.html" />
+    <Content Include="src\app\app.component.js" />
+    <Content Include="src\app\app.component.spec.js" />
+    <Content Include="src\app\app.module.js" />
+    <Content Include="src\app\guests\guests.component.css" />
+    <Content Include="src\app\guests\guests.component.html" />
+    <Content Include="src\app\guests\guests.component.js" />
+    <Content Include="src\app\guests\guests.component.spec.js" />
+    <Content Include="src\app\info\info.component.css" />
+    <Content Include="src\app\info\info.component.html" />
+    <Content Include="src\app\info\info.component.js" />
+    <Content Include="src\app\info\info.component.spec.js" />
+    <Content Include="src\app\login\login.component.css" />
+    <Content Include="src\app\login\login.component.html" />
+    <Content Include="src\app\login\login.component.js" />
+    <Content Include="src\app\login\login.component.spec.js" />
+    <Content Include="src\app\register\register.component.css" />
+    <Content Include="src\app\register\register.component.html" />
+    <Content Include="src\app\register\register.component.js" />
+    <Content Include="src\app\register\register.component.spec.js" />
+    <Content Include="src\app\start\start.component.css" />
+    <Content Include="src\app\start\start.component.html" />
+    <Content Include="src\app\start\start.component.js" />
+    <Content Include="src\app\start\start.component.spec.js" />
+    <Content Include="src\favicon.ico" />
+    <Content Include="src\img\bcg.png" />
+    <Content Include="src\img\original.jpg" />
+    <Content Include="src\index.html" />
+    <Content Include="src\main.js" />
+    <Content Include="src\styles.css" />
+    <Content Include="src\systemjs-angular-loader.js" />
+    <Content Include="src\systemjs.config.extras.js" />
+    <Content Include="src\systemjs.config.js" />
     <Content Include="src\tsconfig.json" />
     <Content Include="tslint.json" />
+    <Content Include="src\app\app.component.js.map" />
+    <Content Include="src\app\app.component.spec.js.map" />
+    <Content Include="src\app\app.module.js.map" />
+    <Content Include="src\app\guests\guests.component.js.map" />
+    <Content Include="src\app\guests\guests.component.spec.js.map" />
+    <Content Include="src\app\info\info.component.js.map" />
+    <Content Include="src\app\info\info.component.spec.js.map" />
+    <Content Include="src\app\login\login.component.js.map" />
+    <Content Include="src\app\login\login.component.spec.js.map" />
+    <Content Include="src\app\register\register.component.js.map" />
+    <Content Include="src\app\register\register.component.spec.js.map" />
+    <Content Include="src\app\start\start.component.js.map" />
+    <Content Include="src\app\start\start.component.spec.js.map" />
+    <Content Include="src\main.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -116,32 +161,31 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-=======
-    <Content Include="img\bcg.png" />
-    <Content Include="img\original.jpg" />
->>>>>>> da79125be20029fe1834a86d1a88c9fa3fdede23
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
-    <Content Include="src\favicon.ico" />
-    <Content Include="src\index.html" />
-    <Content Include="src\styles.css" />
-    <Content Include="src\systemjs-angular-loader.js" />
-    <Content Include="src\systemjs.config.extras.js" />
-    <Content Include="src\systemjs.config.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
     <TypeScriptCompile Include="src\app\app.component.spec.ts" />
     <TypeScriptCompile Include="src\app\app.component.ts" />
     <TypeScriptCompile Include="src\app\app.module.ts" />
+    <TypeScriptCompile Include="src\app\guests\guests.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\guests\guests.component.ts" />
+    <TypeScriptCompile Include="src\app\info\info.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\info\info.component.ts" />
+    <TypeScriptCompile Include="src\app\login\login.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\login\login.component.ts" />
+    <TypeScriptCompile Include="src\app\register\register.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\register\register.component.ts" />
+    <TypeScriptCompile Include="src\app\start\start.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\start\start.component.ts" />
     <TypeScriptCompile Include="src\main.ts" />
-  </ItemGroup>
-  <ItemGroup>
-    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -157,11 +201,7 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-<<<<<<< HEAD
           <DevelopmentServerPort>49293</DevelopmentServerPort>
-=======
-          <DevelopmentServerPort>60432</DevelopmentServerPort>
->>>>>>> da79125be20029fe1834a86d1a88c9fa3fdede23
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost:56166/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
@@ -179,7 +219,10 @@
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
     <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.TypeScript.MSBuild.3.0.3\build\Microsoft.TypeScript.MSBuild.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.TypeScript.MSBuild.3.0.3\build\Microsoft.TypeScript.MSBuild.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.TypeScript.MSBuild.3.0.3\build\Microsoft.TypeScript.MSBuild.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.TypeScript.MSBuild.3.0.3\build\Microsoft.TypeScript.MSBuild.targets'))" />
   </Target>
+  <Import Project="..\packages\Microsoft.TypeScript.MSBuild.3.0.3\build\Microsoft.TypeScript.MSBuild.targets" Condition="Exists('..\packages\Microsoft.TypeScript.MSBuild.3.0.3\build\Microsoft.TypeScript.MSBuild.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

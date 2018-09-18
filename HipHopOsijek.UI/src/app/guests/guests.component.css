@@ -20,7 +20,7 @@
 #picture{
 	float: left;
 	margin: 1%;
-	background-color: gray;
+	background-color: black;
 	height: 500px;
-	width: auto;
+	width: 100%;
 }

@@ -16,3 +16,12 @@ C:\Users\susen\Documents\HipHopOsijek\HipHopOsijek.Service.Common\bin\Debug\HipH
 C:\Users\susen\Documents\HipHopOsijek\HipHopOsijek.Service.Common\obj\Debug\HipHopOsijek.Service.Common.csprojResolveAssemblyReference.cache
 C:\Users\susen\Documents\HipHopOsijek\HipHopOsijek.Service.Common\obj\Debug\HipHopOsijek.Service.Common.dll
 C:\Users\susen\Documents\HipHopOsijek\HipHopOsijek.Service.Common\obj\Debug\HipHopOsijek.Service.Common.pdb
+C:\Users\Apolon\Documents\HipHopOsijek\HipHopOsijek.Service.Common\bin\Debug\HipHopOsijek.Service.Common.dll
+C:\Users\Apolon\Documents\HipHopOsijek\HipHopOsijek.Service.Common\bin\Debug\HipHopOsijek.Service.Common.pdb
+C:\Users\Apolon\Documents\HipHopOsijek\HipHopOsijek.Service.Common\bin\Debug\HipHopOsijek.Common.dll
+C:\Users\Apolon\Documents\HipHopOsijek\HipHopOsijek.Service.Common\bin\Debug\HipHopOsijek.Model.Common.dll
+C:\Users\Apolon\Documents\HipHopOsijek\HipHopOsijek.Service.Common\bin\Debug\HipHopOsijek.Common.pdb
+C:\Users\Apolon\Documents\HipHopOsijek\HipHopOsijek.Service.Common\bin\Debug\HipHopOsijek.Model.Common.pdb
+C:\Users\Apolon\Documents\HipHopOsijek\HipHopOsijek.Service.Common\obj\Debug\HipHopOsijek.Service.Common.csprojResolveAssemblyReference.cache
+C:\Users\Apolon\Documents\HipHopOsijek\HipHopOsijek.Service.Common\obj\Debug\HipHopOsijek.Service.Common.dll
+C:\Users\Apolon\Documents\HipHopOsijek\HipHopOsijek.Service.Common\obj\Debug\HipHopOsijek.Service.Common.pdb

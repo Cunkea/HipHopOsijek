@@ -8,3 +8,8 @@ C:\Users\susen\Documents\HipHopOsijek\HipHopOsijek.Model.Common\bin\Debug\HipHop
 C:\Users\susen\Documents\HipHopOsijek\HipHopOsijek.Model.Common\obj\Debug\HipHopOsijek.Model.Common.csprojResolveAssemblyReference.cache
 C:\Users\susen\Documents\HipHopOsijek\HipHopOsijek.Model.Common\obj\Debug\HipHopOsijek.Model.Common.dll
 C:\Users\susen\Documents\HipHopOsijek\HipHopOsijek.Model.Common\obj\Debug\HipHopOsijek.Model.Common.pdb
+C:\Users\Apolon\Documents\HipHopOsijek\HipHopOsijek.Model.Common\bin\Debug\HipHopOsijek.Model.Common.dll
+C:\Users\Apolon\Documents\HipHopOsijek\HipHopOsijek.Model.Common\bin\Debug\HipHopOsijek.Model.Common.pdb
+C:\Users\Apolon\Documents\HipHopOsijek\HipHopOsijek.Model.Common\obj\Debug\HipHopOsijek.Model.Common.csprojResolveAssemblyReference.cache
+C:\Users\Apolon\Documents\HipHopOsijek\HipHopOsijek.Model.Common\obj\Debug\HipHopOsijek.Model.Common.dll
+C:\Users\Apolon\Documents\HipHopOsijek\HipHopOsijek.Model.Common\obj\Debug\HipHopOsijek.Model.Common.pdb
