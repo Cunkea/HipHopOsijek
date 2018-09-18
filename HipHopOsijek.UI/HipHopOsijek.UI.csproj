@@ -10,7 +10,11 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
+<<<<<<< HEAD
+    <ProjectGuid>{B469C413-3EA6-4386-94ED-A69948C6B271}</ProjectGuid>
+=======
     <ProjectGuid>{0EC50D68-598C-4DF1-B172-E0ED6F164DF2}</ProjectGuid>
+>>>>>>> da79125be20029fe1834a86d1a88c9fa3fdede23
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -112,8 +116,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+=======
     <Content Include="img\bcg.png" />
     <Content Include="img\original.jpg" />
+>>>>>>> da79125be20029fe1834a86d1a88c9fa3fdede23
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="src\favicon.ico" />
@@ -150,7 +157,11 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
+<<<<<<< HEAD
+          <DevelopmentServerPort>49293</DevelopmentServerPort>
+=======
           <DevelopmentServerPort>60432</DevelopmentServerPort>
+>>>>>>> da79125be20029fe1834a86d1a88c9fa3fdede23
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost:56166/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>

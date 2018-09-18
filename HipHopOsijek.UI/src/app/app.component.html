@@ -1,0 +1,23 @@
+<div id="nav">
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" (click)="change('s')" id="pointer">Hip Hop Osijek</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a (click)="change('i')" id="pointer">Info</a></li>
+                <li><a (click)="change('g')" id="pointer">Guests</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a (click)="registerComponent.showRegister()" id="pointer"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>
+                <li><a (click)="loginComponent.showLogIn()" id="pointer"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                <li></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<app-start></app-start>
+<app-info></app-info>
+<app-guests></app-guests>
+<app-login></app-login>
+<app-register></app-register>

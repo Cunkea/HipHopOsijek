@@ -3,6 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+<<<<<<< HEAD
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HipHopOsijek.WebAPI", "HipHopOsijek.WebAPI\HipHopOsijek.WebAPI.csproj", "{BA75C8A7-F7CF-4E59-A91B-3B9B74D957DA}"
+EndProject
+=======
+>>>>>>> da79125be20029fe1834a86d1a88c9fa3fdede23
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HipHopOsijek.Common", "HipHopOsijek.Common\HipHopOsijek.Common.csproj", "{054B1AE3-27B1-47D2-A2E7-64D2CF979CCB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HipHopOsijek.DAL", "HipHopOsijek.DAL\HipHopOsijek.DAL.csproj", "{410989FF-EE08-452B-B5FA-CECAFA5FB7A6}"
@@ -19,9 +24,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HipHopOsijek.Service", "Hip
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HipHopOsijek.Service.Common", "HipHopOsijek.Service.Common\HipHopOsijek.Service.Common.csproj", "{7A9504BF-8FA9-4A47-BCC7-2BE898C5E85B}"
 EndProject
+<<<<<<< HEAD
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HipHopOsijek.UI", "HipHopOsijek.UI\HipHopOsijek.UI.csproj", "{B469C413-3EA6-4386-94ED-A69948C6B271}"
+=======
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HipHopOsijek.WebAPI", "HipHopOsijek.WebAPI\HipHopOsijek.WebAPI.csproj", "{BA75C8A7-F7CF-4E59-A91B-3B9B74D957DA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HipHopOsijek.UI", "HipHopOsijek.UI\HipHopOsijek.UI.csproj", "{0EC50D68-598C-4DF1-B172-E0ED6F164DF2}"
+>>>>>>> da79125be20029fe1834a86d1a88c9fa3fdede23
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +38,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+<<<<<<< HEAD
+		{BA75C8A7-F7CF-4E59-A91B-3B9B74D957DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA75C8A7-F7CF-4E59-A91B-3B9B74D957DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA75C8A7-F7CF-4E59-A91B-3B9B74D957DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA75C8A7-F7CF-4E59-A91B-3B9B74D957DA}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+>>>>>>> da79125be20029fe1834a86d1a88c9fa3fdede23
 		{054B1AE3-27B1-47D2-A2E7-64D2CF979CCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{054B1AE3-27B1-47D2-A2E7-64D2CF979CCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{054B1AE3-27B1-47D2-A2E7-64D2CF979CCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -61,6 +77,12 @@ Global
 		{7A9504BF-8FA9-4A47-BCC7-2BE898C5E85B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A9504BF-8FA9-4A47-BCC7-2BE898C5E85B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A9504BF-8FA9-4A47-BCC7-2BE898C5E85B}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
+		{B469C413-3EA6-4386-94ED-A69948C6B271}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B469C413-3EA6-4386-94ED-A69948C6B271}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B469C413-3EA6-4386-94ED-A69948C6B271}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B469C413-3EA6-4386-94ED-A69948C6B271}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
 		{BA75C8A7-F7CF-4E59-A91B-3B9B74D957DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BA75C8A7-F7CF-4E59-A91B-3B9B74D957DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA75C8A7-F7CF-4E59-A91B-3B9B74D957DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -69,6 +91,7 @@ Global
 		{0EC50D68-598C-4DF1-B172-E0ED6F164DF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EC50D68-598C-4DF1-B172-E0ED6F164DF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EC50D68-598C-4DF1-B172-E0ED6F164DF2}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> da79125be20029fe1834a86d1a88c9fa3fdede23
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

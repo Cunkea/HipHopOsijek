@@ -1,5 +1,8 @@
 {
+<<<<<<< HEAD
+=======
   "compileOnSave": true,
+>>>>>>> da79125be20029fe1834a86d1a88c9fa3fdede23
   "compilerOptions": {
     "target": "es5",
     "module": "commonjs",
@@ -9,7 +12,11 @@
     "experimentalDecorators": true,
     "lib": [ "es2015", "dom" ],
     "noImplicitAny": true,
+<<<<<<< HEAD
+    "suppressImplicitAnyIndexErrors": true
+=======
     "suppressImplicitAnyIndexErrors": true,
     "noStrictGenericChecks": true
+>>>>>>> da79125be20029fe1834a86d1a88c9fa3fdede23
   }
 }
