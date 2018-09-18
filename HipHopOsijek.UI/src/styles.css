@@ -1,5 +1,9 @@
 body{
+<<<<<<< HEAD
 	background-image: url("img/bcg.png");
+=======
+	background-image: url("/img/bcg.png");
+>>>>>>> da79125be20029fe1834a86d1a88c9fa3fdede23
 	/*one picture*//*
 	background-image: url("img/original.jpg");
 	background-repeat: no-repeat;
@@ -7,6 +11,13 @@ body{
   	/*******/
 }
 
+<<<<<<< HEAD
+=======
+h1{
+    color:red;
+}
+
+>>>>>>> da79125be20029fe1834a86d1a88c9fa3fdede23
 #foot{
 	position: fixed;
 	left: 0;
