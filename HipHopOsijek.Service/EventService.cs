@@ -51,5 +51,10 @@ namespace HipHopOsijek.Service
         {
             throw new NotImplementedException();
         }
+
+        public Task<List<IPerson>> GetPeopleAsync(Guid? id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -17,7 +17,6 @@ namespace HipHopOsijek.DAL.Mapping
             this.ToTable("Event");
             this.Property(t => t.EventTitle).HasColumnName("EventTitle").HasColumnType("NVarchar").HasMaxLength(50);
             this.Property(t => t.EventDescription).HasColumnName("EventDescription").HasColumnType("NVarchar").HasMaxLength(1000);
-            this.Property(t => t.EventPicture).HasColumnName("EventPicture").HasColumnType("NVarchar").HasMaxLength(50);
             this.Property(t => t.DateCreated).HasColumnName("DateCreated");
             this.Property(t => t.LastModifyDate).HasColumnName("LastModifyDate");
         }

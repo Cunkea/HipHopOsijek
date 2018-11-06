@@ -22,13 +22,13 @@ namespace HipHopOsijek.Model
             CreateMap<Event, IEvent>().ReverseMap();
             CreateMap<IEvent, EventPoco>().ReverseMap();
 
-            CreateMap<Event_User, Event_UserPoco>().ReverseMap();
-            CreateMap<Event_User, IEvent_User>().ReverseMap();
-            CreateMap<IEvent_User, Event_UserPoco>().ReverseMap();
+            CreateMap<EventUser, EventUserPoco>().ReverseMap();
+            CreateMap<EventUser, IEventUser>().ReverseMap();
+            CreateMap<IEventUser, EventUserPoco>().ReverseMap();
 
-            CreateMap<User, UserPoco>().ReverseMap();
-            CreateMap<User, IUser>().ReverseMap();
-            CreateMap<IUser, UserPoco>().ReverseMap();
+            CreateMap<Person, PersonPoco>().ReverseMap();
+            CreateMap<Person, IPerson>().ReverseMap();
+            CreateMap<IPerson, PersonPoco>().ReverseMap();
         }
     }
 }

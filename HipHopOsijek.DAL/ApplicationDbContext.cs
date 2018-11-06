@@ -21,9 +21,9 @@ namespace HipHopOsijek.DAL
             return new ApplicationDbContext();
         }
 
-        public DbSet<User> Users { get; set; }
+        public DbSet<Person> People { get; set; }
         public DbSet<Event> Events { get; set; }
-        public DbSet<Event_User> Event_Users { get; set; }
+        public DbSet<EventUser> Event_Users { get; set; }
         public DbSet<Comment> Comments { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
@@ -31,7 +31,7 @@ namespace HipHopOsijek.DAL
             modelBuilder.Configurations.Add(new CommentMap());
             modelBuilder.Configurations.Add(new EventMap());
             modelBuilder.Configurations.Add(new Event_UserMap());
-            modelBuilder.Configurations.Add(new UserMap());
+            modelBuilder.Configurations.Add(new PersonMap());
         }
     }
 
@@ -39,8 +39,8 @@ namespace HipHopOsijek.DAL
     {
         DbSet<Comment> Comments { get; set; }
         DbSet<Event> Events { get; set; }
-        DbSet<Event_User> Event_Users { get; set; }
-        DbSet<User> Users { get; set; }
+        DbSet<EventUser> Event_Users { get; set; }
+        DbSet<Person> People { get; set; }
     
         Task<int> SaveChangesAsync();
     }

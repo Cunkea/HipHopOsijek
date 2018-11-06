@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Inherits="HipHopOsijek.WebAPI.MvcApplication" Language="C#" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="HipHopOsijek.WebAPI.WebApiApplication" Language="C#" %>

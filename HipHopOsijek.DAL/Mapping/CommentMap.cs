@@ -15,7 +15,7 @@ namespace HipHopOsijek.DAL.Mapping
             this.HasKey(t => t.Id);
 
             this.ToTable("Comment");
-            this.Property(t => t.UserId).HasColumnName("UserId");
+            this.Property(t => t.PersonId).HasColumnName("PersonId");
             this.Property(t => t.EventId).HasColumnName("EventId");
             this.Property(t => t.Text).HasColumnName("Text").HasColumnType("NVarchar").HasMaxLength(1000);
             this.Property(t => t.DateCreated).HasColumnName("DateCreated");

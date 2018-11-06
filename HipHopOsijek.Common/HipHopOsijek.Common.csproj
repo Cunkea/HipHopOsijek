@@ -44,9 +44,9 @@
     <Compile Include="Enums\StatusEnum.cs" />
     <Compile Include="Filters\CommentFilter.cs" />
     <Compile Include="Filters\EventFilter.cs" />
-    <Compile Include="Filters\Event_UserFilter.cs" />
+    <Compile Include="Filters\EventUserFilter.cs" />
     <Compile Include="Filters\IFilter.cs" />
-    <Compile Include="Filters\UserFilter.cs" />
+    <Compile Include="Filters\PersonFilter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

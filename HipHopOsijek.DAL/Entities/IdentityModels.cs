@@ -14,6 +14,7 @@ namespace HipHopOsijek.DAL.Entities
     {
         public virtual Event Event { get; set; }
         public virtual ICollection<Comment> Comments { get; set; }
+        public virtual ICollection<EventUser> EventUsers { get; set; }
 
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager)
         {

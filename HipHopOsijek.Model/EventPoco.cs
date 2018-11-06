@@ -15,7 +15,6 @@ namespace HipHopOsijek.Model
         public SqlInt64 EventId { get; set; }
         public string EventTitle { get; set; }
         public string EventDescription { get; set; }
-        public string EventPicture { get; set; }
         public DateTime DateCreated { get; set; }
         public DateTime LastModifyDate { get; set; }
 

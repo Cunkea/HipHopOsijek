@@ -14,8 +14,8 @@ namespace HipHopOsijek.Service
         {
             Bind<ICommentService>().To<CommentService>();
             Bind<IEventService>().To<EventService>();
-            Bind<IEvent_UserService>().To<Event_UserService>();
-            Bind<IUserService>().To<UserService>();
+            Bind<IEventUserService>().To<EventUserService>();
+            Bind<IPersonService>().To<PersonService>();
         }
     }
 }

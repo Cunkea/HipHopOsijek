@@ -42,8 +42,8 @@
   <ItemGroup>
     <Compile Include="ICommentService.cs" />
     <Compile Include="IEventService.cs" />
-    <Compile Include="IEvent_UserService.cs" />
-    <Compile Include="IUserService.cs" />
+    <Compile Include="IEventUserService.cs" />
+    <Compile Include="IPersonService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -14,9 +14,9 @@ namespace HipHopOsijek.Model
         public override void Load()
         {
             Bind<IComment>().To<CommentPoco>();
-            Bind<IEvent_User>().To<Event_UserPoco>();
+            Bind<IEventUser>().To<EventUserPoco>();
             Bind<IEvent>().To<EventPoco>();
-            Bind<IUser>().To<UserPoco>();
+            Bind<IPerson>().To<PersonPoco>();
         }
     }
 }

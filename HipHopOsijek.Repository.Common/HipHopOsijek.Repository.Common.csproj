@@ -42,14 +42,20 @@
   <ItemGroup>
     <Compile Include="ICommentRepository.cs" />
     <Compile Include="IEventRepository.cs" />
-    <Compile Include="IEvent_UserRepository.cs" />
-    <Compile Include="IUserRepository.cs" />
+    <Compile Include="IEventUserRepository.cs" />
+    <Compile Include="IRepository.cs" />
+    <Compile Include="IUnitOfWork.cs" />
+    <Compile Include="IPersonRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HipHopOsijek.Common\HipHopOsijek.Common.csproj">
       <Project>{054b1ae3-27b1-47d2-a2e7-64d2cf979ccb}</Project>
       <Name>HipHopOsijek.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HipHopOsijek.DAL\HipHopOsijek.DAL.csproj">
+      <Project>{410989ff-ee08-452b-b5fa-cecafa5fb7a6}</Project>
+      <Name>HipHopOsijek.DAL</Name>
     </ProjectReference>
     <ProjectReference Include="..\HipHopOsijek.Model.Common\HipHopOsijek.Model.Common.csproj">
       <Project>{601F75B5-2AAD-445C-9D09-9347DB1FB39B}</Project>

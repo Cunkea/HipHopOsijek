@@ -60,7 +60,7 @@
     <Compile Include="CommentPoco.cs" />
     <Compile Include="DIModule.cs" />
     <Compile Include="EventPoco.cs" />
-    <Compile Include="Event_UserPoco.cs" />
+    <Compile Include="EventUserPoco.cs" />
     <Compile Include="Mapping\AutoMapperMaps.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserPoco.cs" />
@@ -70,6 +70,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\HipHopOsijek.Common\HipHopOsijek.Common.csproj">
+      <Project>{054b1ae3-27b1-47d2-a2e7-64d2cf979ccb}</Project>
+      <Name>HipHopOsijek.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\HipHopOsijek.DAL\HipHopOsijek.DAL.csproj">
       <Project>{410989ff-ee08-452b-b5fa-cecafa5fb7a6}</Project>
       <Name>HipHopOsijek.DAL</Name>

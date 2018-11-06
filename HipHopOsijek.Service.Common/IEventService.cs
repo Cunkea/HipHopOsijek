@@ -17,5 +17,6 @@ namespace HipHopOsijek.Service.Common
         Task<int> UpdateAsync(IEvent e);
 
         Task<List<IComment>> GetCommentsAsync(Guid? id);
+        Task<List<IPerson>> GetPeopleAsync(Guid? id);
     }
 }

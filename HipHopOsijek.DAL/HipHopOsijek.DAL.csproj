@@ -76,26 +76,26 @@
     <Compile Include="ApplicationDbContext.cs" />
     <Compile Include="Entities\Comment.cs" />
     <Compile Include="Entities\Event.cs" />
-    <Compile Include="Entities\Event_User.cs" />
+    <Compile Include="Entities\EventUser.cs" />
     <Compile Include="Entities\IdentityModels.cs" />
-    <Compile Include="Entities\User.cs" />
+    <Compile Include="Entities\Person.cs" />
     <Compile Include="Mapping\CommentMap.cs" />
     <Compile Include="Mapping\EventMap.cs" />
     <Compile Include="Mapping\Event_UserMap.cs" />
-    <Compile Include="Mapping\UserMapcs.cs" />
+    <Compile Include="Mapping\PersonMaps.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\HipHopOsijek.WebAPI\HipHopOsijek.WebAPI.csproj">
-      <Project>{BA75C8A7-F7CF-4E59-A91B-3B9B74D957DA}</Project>
-      <Name>HipHopOsijek.WebAPI</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config">
       <SubType>Designer</SubType>
     </None>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HipHopOsijek.Common\HipHopOsijek.Common.csproj">
+      <Project>{054b1ae3-27b1-47d2-a2e7-64d2cf979ccb}</Project>
+      <Name>HipHopOsijek.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

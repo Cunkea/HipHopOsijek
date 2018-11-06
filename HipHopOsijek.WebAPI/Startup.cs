@@ -1,7 +1,11 @@
-﻿using Microsoft.Owin;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartupAttribute(typeof(HipHopOsijek.WebAPI.Startup))]
+[assembly: OwinStartup(typeof(HipHopOsijek.WebAPI.Startup))]
+
 namespace HipHopOsijek.WebAPI
 {
     public partial class Startup

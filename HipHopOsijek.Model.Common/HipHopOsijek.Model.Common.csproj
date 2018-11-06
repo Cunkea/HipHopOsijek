@@ -42,9 +42,15 @@
   <ItemGroup>
     <Compile Include="IComment.cs" />
     <Compile Include="IEvent.cs" />
-    <Compile Include="IEvent_User.cs" />
-    <Compile Include="IUser.cs" />
+    <Compile Include="IEventUser.cs" />
+    <Compile Include="IPerson.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HipHopOsijek.Common\HipHopOsijek.Common.csproj">
+      <Project>{054b1ae3-27b1-47d2-a2e7-64d2cf979ccb}</Project>
+      <Name>HipHopOsijek.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

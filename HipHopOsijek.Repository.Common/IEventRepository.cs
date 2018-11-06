@@ -15,6 +15,7 @@ namespace HipHopOsijek.Repository.Common
         Task<List<IEvent>> GetCurrentAsync();
         Task<int> DeleteAsync(Guid? id);
         Task<int> UpdateAsync(IEvent e);
-        Task<List<IComment>> GetCurrentAsync(Guid? id);
+        Task<List<IComment>> GetCurrentComments(Guid? id);
+        Task<List<IEventUser>> GetCurrentPeople(Guid? id);
     }
 }
