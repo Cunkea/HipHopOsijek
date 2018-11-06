@@ -1,0 +1,30 @@
+body{
+	/*background-image: url("img/bcg.png");*/
+    background-image: url("img/bcg.jpg");
+    background-attachment: fixed;
+	/*one picture/*
+	background-image: url("img/original.jpg");
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	/*******/
+}
+
+#foot{
+	position: fixed;
+	left: 0;
+    bottom: 0;
+    width: 100%;
+	background-color: rgb(15,15,15);
+}
+
+#foot p{
+	margin-top: 15px;
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+}
+
+hr{
+	border-top: 1px solid rgb(150,150,150);
+	width: 86%;
+}

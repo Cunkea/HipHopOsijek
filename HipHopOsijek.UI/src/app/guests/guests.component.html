@@ -1,0 +1,20 @@
+<div *ngIf="staticGuests" id="guests">
+    <div id="container">
+      <div id="txt">
+      	<h1>Naši gosti</h1>
+        <table>
+          <tr *ngFor="let guest of guestService.guestList">
+            <td>
+              <h1>
+                {{guest.Name}}
+              </h1>
+              <p>
+                {{guest.Description}}
+              </p>
+              <img src="">
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+</div>
