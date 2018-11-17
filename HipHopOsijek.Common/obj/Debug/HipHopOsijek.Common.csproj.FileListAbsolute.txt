@@ -12,4 +12,3 @@ C:\Users\Apolon\Documents\HipHopOsijek\HipHopOsijek.Common\bin\Debug\HipHopOsije
 C:\Users\Apolon\Documents\HipHopOsijek\HipHopOsijek.Common\bin\Debug\HipHopOsijek.Common.pdb
 C:\Users\Apolon\Documents\HipHopOsijek\HipHopOsijek.Common\obj\Debug\HipHopOsijek.Common.dll
 C:\Users\Apolon\Documents\HipHopOsijek\HipHopOsijek.Common\obj\Debug\HipHopOsijek.Common.pdb
-C:\Users\Apolon\Documents\HipHopOsijek\HipHopOsijek.Common\obj\Debug\HipHopOsijek.Common.csprojResolveAssemblyReference.cache

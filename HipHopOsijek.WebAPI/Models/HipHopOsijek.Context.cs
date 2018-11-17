@@ -13,10 +13,10 @@ namespace HipHopOsijek.WebAPI.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class HipHopOsijekEntities : DbContext
+    public partial class HipHopOsijekEntities1 : DbContext
     {
-        public HipHopOsijekEntities()
-            : base("name=HipHopOsijekEntities")
+        public HipHopOsijekEntities1()
+            : base("name=HipHopOsijekEntities1")
         {
         }
     

@@ -7,21 +7,23 @@
 	background-color: rgba(240,240,240,0.8);
 }
 
-#container{
+#cont{
 	width: 100%;
 }
 
-#txt{
+#text{
 	float: left;
-	margin: 1%;
+	margin: 10px;
 	width: 48%;
 }
 
-#picture{
-	float: left;
-	margin: 1%;
-	background-color: gray;
+#picture img{
+	display: block;
 	width: 48%;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: gray;
 }
 
 h1{

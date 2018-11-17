@@ -25,6 +25,8 @@ namespace HipHopOsijek.WebAPI.Models
         public string Title { get; set; }
         public string Description { get; set; }
         public string Picture { get; set; }
+        public string Type { get; set; }
+        public Nullable<System.DateTime> Date { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Comment> Comments { get; set; }

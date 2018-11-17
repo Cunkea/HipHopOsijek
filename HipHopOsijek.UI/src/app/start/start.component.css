@@ -2,17 +2,6 @@
     margin: 10px;
 }
 
-#cont{
-	width: 80%;
-	margin-left: 10%;
-	height: 100%;
-	background-color: rgba(240,240,240,0.8);
-}
-
-#infoText{
-	margin: 5px;
-}
-
 #text img{
 	display: block;
 	width: 70%;
@@ -21,10 +10,28 @@
 	background-color: gray;
 }
 
-#start{
-	/*margin-bottom: 500px;*/
+#cont{
+	margin-top: 20px;
+	float: left;
+	width: 78%;
+	height: 100%;
+	background-color: rgba(240,240,240,0.8);
+}
+
+#eventSort{
+	margin-top: 20px;
+	float: left;
+	margin-left: 2%;
+	width: 20%;
+	background-color: rgba(240,240,240,0.8);
+}
+
+#eventSort h2, h3{
+	text-align: center;
+	font-weight: bold;
 }
 
 h1{
 	text-align: center;
+	font-weight: bold;
 }

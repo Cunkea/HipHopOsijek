@@ -9,7 +9,7 @@
     <WebStackScaffolding_LayoutPageFile />
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
     <ProjectView>ShowAllFiles</ProjectView>
-    <WebStackScaffolding_DbContextTypeFullName>HipHopOsijek.WebAPI.Models.HipHopOsijekEntities</WebStackScaffolding_DbContextTypeFullName>
+    <WebStackScaffolding_DbContextTypeFullName>HipHopOsijek.WebAPI.Models.HipHopOsijekEntities1</WebStackScaffolding_DbContextTypeFullName>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>

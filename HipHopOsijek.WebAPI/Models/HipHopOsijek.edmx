@@ -22,6 +22,8 @@
           <Property Name="Title" Type="varchar" MaxLength="50" Nullable="false" />
           <Property Name="Description" Type="varchar" MaxLength="1000" Nullable="false" />
           <Property Name="Picture" Type="varchar" MaxLength="60" />
+          <Property Name="Type" Type="varchar" MaxLength="30" />
+          <Property Name="Date" Type="date" />
         </EntityType>
         <EntityType Name="EventUser">
           <Key>
@@ -38,7 +40,7 @@
           <Property Name="Id" Type="int8" Nullable="false" />
           <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
           <Property Name="Description" Type="varchar" MaxLength="1000" Nullable="false" />
-          <Property Name="Picture" Type="bytea" Nullable="false" />
+          <Property Name="Picture" Type="varchar" MaxLength="100" />
         </EntityType>
         <EntityType Name="Person">
           <Key>
@@ -146,6 +148,8 @@
           <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="Description" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="Picture" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+          <Property Name="Type" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Name="Date" Type="DateTime" Precision="0" />
           <NavigationProperty Name="Comments" Relationship="Self.Comment_EventId_fkey" FromRole="Event" ToRole="Comment" />
           <NavigationProperty Name="EventUsers" Relationship="Self.EventUser_EventId_fkey" FromRole="Event" ToRole="EventUser" />
         </EntityType>
@@ -166,7 +170,7 @@
           <Property Name="Id" Type="Int64" Nullable="false" />
           <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="Description" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Picture" Type="Binary" MaxLength="2147483647" FixedLength="false" Nullable="false" />
+          <Property Name="Picture" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
         </EntityType>
         <EntityType Name="Person">
           <Key>
@@ -229,7 +233,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="HipHopOsijekEntities" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="HipHopOsijekEntities1" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Comments" EntityType="Self.Comment" />
           <EntitySet Name="Events" EntityType="Self.Event" />
           <EntitySet Name="EventUsers" EntityType="Self.EventUser" />
@@ -257,7 +261,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="HipHopOsijekModelStoreContainer" CdmEntityContainer="HipHopOsijekEntities">
+        <EntityContainerMapping StorageEntityContainer="HipHopOsijekModelStoreContainer" CdmEntityContainer="HipHopOsijekEntities1">
           <EntitySetMapping Name="Comments">
             <EntityTypeMapping TypeName="HipHopOsijekModel.Comment">
               <MappingFragment StoreEntitySet="Comment">
@@ -275,6 +279,8 @@
                 <ScalarProperty Name="Title" ColumnName="Title" />
                 <ScalarProperty Name="Description" ColumnName="Description" />
                 <ScalarProperty Name="Picture" ColumnName="Picture" />
+                <ScalarProperty Name="Type" ColumnName="Type" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

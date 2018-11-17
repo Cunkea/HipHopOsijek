@@ -14,7 +14,7 @@ namespace HipHopOsijek.WebAPI.Controllers
 {
     public class GuestsController : ApiController
     {
-        private HipHopOsijekEntities db = new HipHopOsijekEntities();
+        private HipHopOsijekEntities1 db = new HipHopOsijekEntities1();
 
         public GuestsController()
         {
